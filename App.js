@@ -44,6 +44,7 @@ export default App = (props) => {
                 ),
               }}
             />
+            <Stack.Screen name="ResultsShow" component={ResultsShowScreen} />
           </Stack.Navigator>
         </NavigationContainer>
       </ErrorBoundary>
