@@ -2,10 +2,6 @@ import React from "react";
 import { View, Image, Text, StyleSheet, ActivityIndicator } from "react-native";
 
 const ResultsDetail = ({ result }) => {
-  if (result === []) {
-    return <ActivityIndicator size="large" />;
-  }
-
   return (
     <View style={styles.container}>
       <Image style={styles.image} source={{ uri: result.image_url }} />
